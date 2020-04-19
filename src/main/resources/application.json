@@ -1,0 +1,33 @@
+[
+  {
+    "name":"student",
+    "className":"com.xieyangzhe.spring.demo.Student",
+    "propertyArgList":[
+      {
+        "name":"name",
+        "value":"Joseph"
+      },
+      {
+        "name": "teacher",
+        "ref": "teacher"
+      }
+    ]
+  },
+  {
+    "name":"teacher",
+    "className":"com.xieyangzhe.spring.demo.Teacher",
+    "propertyArgList":[
+      {
+        "name":"name",
+        "value":"Miller"
+      },
+      {
+        "name": "student",
+        "ref": "student"
+      }
+    ]
+  }
+]
+
+
+
